@@ -9,19 +9,20 @@
   <script defer src="js/index.js"></script>
 </head>
 
-<body>
+<body background='img/download_final.jfif' no-repeat>
   <main id="main-holder">
     <h1 id="login-header">Login</h1>
+      <img src='img/download.png'>
     
     <div id="login-error-msg-holder">
       <p id="login-error-msg">Invalid username <span id="error-msg-second-line">and/or password</span></p>
     </div>
     
-    <form id="login-form" method="post" action="https://standard.build.me/prototype-editors/80c3ff2efd8c9a57167ad32f/prototype/61b800210eb5f201d5fdaacd/ui-composer/Main">
+    <form id="login-form" method="post" action="https://standard.build.me/prototype-editors/api/public/v2/prototypes/61b800210eb5f201d5fdaacd/snapshots/latest/artifacts/index.html">
       <input type="text" name="username" id="username-field" class="login-form-field" placeholder="Username">
       <input type="password" name="password" id="password-field" class="login-form-field" placeholder="Password">
     <!-- <a href="index.html"><input type="submit" value="Login" id="login-form-submit"> </a> -->
-    <a href="https://standard.build.me/prototype-editors/80c3ff2efd8c9a57167ad32f/prototype/61b800210eb5f201d5fdaacd/ui-composer/Main"><id="login-form-submit"> Login </a>
+    <a href="https://standard.build.me/prototype-editors/api/public/v2/prototypes/61b800210eb5f201d5fdaacd/snapshots/latest/artifacts/index.html"><id="login-form-submit"> Login </a>
       
     </form>
   
